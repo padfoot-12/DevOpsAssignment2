@@ -4,9 +4,9 @@ class Name{
     {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your first name: ");
-        fn = sc.nextLine();
+        String fn = sc.nextLine();
         System.out.println("Enter your last name: ");
-        ln = sc.nextLine();
+        String ln = sc.nextLine();
         System.out.println("Full name: "+fn+" "+ln);
     }
 }
